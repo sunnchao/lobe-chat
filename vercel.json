@@ -2,7 +2,10 @@
   "buildCommand": "bun run build",
   "installCommand": "npx bun@1.2.23 install",
   "functions": {
-    "webapi/chat/[provider].*": {
+    "webapi/chat/models/[provider]/route.js": {
+      "maxDuration": 60
+    },
+    "webapi/chat/models/[provider]/route.ts": {
       "maxDuration": 60
     }
   }
