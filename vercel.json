@@ -2,10 +2,10 @@
   "buildCommand": "bun run build",
   "installCommand": "npx bun@1.2.23 install",
   "functions": {
-    "webapi/**/route.js": {
+    "api/**/*.js": {
       "maxDuration": 60
     },
-    "webapi/**/route.ts": {
+    "webapi/**/*.js": {
       "maxDuration": 60
     }
   }
